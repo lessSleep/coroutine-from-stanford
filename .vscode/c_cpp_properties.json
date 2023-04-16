@@ -3,9 +3,9 @@
         {
             "name": "Linux",        
             "includePath": [
-                "/usr/include",
-                "/usr/local/include",
                 "/home/ubuntu2004/gcc121/include/c++/12.1.0",
+                "/usr/include",
+                "/usr/local/include",                
                 "${workspaceFolder}/be/src/**"
             ],
             "defines": [],
@@ -23,5 +23,6 @@
                 "databaseFilename": ""
             }
         }
-    ]
+    ],
+    "version": 4
 }

@@ -1,0 +1,52 @@
+{
+    "cmake.sourceDirectory": "${workspaceFolder}/be",
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.iconTheme": "vscode-icons",
+
+    "editor.inlayHints.enabled": "on",
+
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#e7f0e280",
+        "editor.selectionHighlightBackground": "#f19d735f",
+        "[Visual Studio Dark - C++1]": {
+            "editor.selectionBackground": "#b6eb98",
+            "editor.selectionHighlightBackground": "#e9f5b2"
+        },
+
+        "[Atom One Light]": {
+            "editor.background": "#a9d6af",
+            "sideBar.background": "#a9d6af",
+            "activityBar.background": "#a9d6af",
+            "editor.selectionBackground": "#d1d1c6",
+            "editor.selectionHighlightBackground": "#e9f5b2"
+        }
+    },
+	
+    "security.workspace.trust.untrustedFiles": "open",
+    "redhat.telemetry.enabled": true,    
+  
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "C_Cpp.autocomplete": "disabled",
+    "C_Cpp.errorSquiggles": "disabled",
+
+    "clangd.path": "/home/ubuntu2004/clang15/bin/clangd",
+    "clangd.arguments": [
+        "--compile-commands-dir=/home/ubuntu2004/code/coroutine-from-stanford",
+        "--background-index",
+        "--clang-tidy",
+        "--log=verbose",
+        "--query-driver=/home/ubuntu2004/gcc121/bin/g++",
+        "--pretty"
+      
+    ],
+    "environment": [
+        {
+            "name": "LD_LIBRARY_PATH",
+            "value": "$LD_LIBRARY_PATH",
+            "includePath": ["${workspaceFolder}", "${workspaceFolder}/be/src"]
+        }        
+    ],
+    "git.openRepositoryInParentFolders": "never"
+
+
+}
