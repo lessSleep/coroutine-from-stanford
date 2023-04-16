@@ -23,7 +23,6 @@
     },
 	
     "security.workspace.trust.untrustedFiles": "open",
-    "redhat.telemetry.enabled": true,    
   
     "C_Cpp.intelliSenseEngine": "disabled",
     "C_Cpp.autocomplete": "disabled",
